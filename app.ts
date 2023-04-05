@@ -21,5 +21,5 @@ function onMessage(msg: IBaseMessage) {
 }
 
 function sleep(ms: number): Promise<void> {
-    return new Promise((res, rej) => { setTimeout(() => res(), 10000)});
+    return new Promise((res, _) => { setTimeout(() => res(), ms)});
 }
