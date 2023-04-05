@@ -1,0 +1,19 @@
+{
+  "name": "ui-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/websocket": "^1.0.5",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
